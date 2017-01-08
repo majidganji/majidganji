@@ -1,0 +1,98 @@
+html,
+body {
+    height: 100%;
+    background-color: #27265E;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.well-c{
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #daf8f9;
+}
+
+
+.menu-logout{
+    padding-top: 10px;
+}
+
+.navbar{
+    margin-bottom: 0;
+}
+
+.menu{
+    color: #fff;
+    padding-left: 0;
+    padding-right: 0;
+}
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+.ul-menu{
+    list-style: none;
+}
+
+.ul-menu > li {
+    margin: 0;
+
+}
+
+.ul-menu > li > a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    width: 100%;
+    display: block;
+}
+
+.ul-menu > li:hover{
+    background-color: #010029;
+}
+
+.sub-menu{
+    /* margin-top: 10px; */
+    margin-right: 0;
+    list-style: none;
+    background-color: #14132f;
+    padding: 0;
+}
+
+.sub-menu > li {
+    padding: 10px 25px 10px 10px;
+}
+
+.sub-menu > li:hover {
+    background-color: #159251;
+}
+
+.sub-menu > li > a{
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+    display: block;
+}
+
+.content{
+    background-color: #eee;
+    color: #000;
+    min-height: 1000px;
+}
